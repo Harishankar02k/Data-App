@@ -1,0 +1,88 @@
+
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 63%;
+  height: 46%;
+}
+
+.data-section {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.static-data {
+  max-height: 202px;
+  overflow-y: auto;
+  padding-right: 10px;
+  margin-left: 31px;
+  margin-top: 68px;
+  width: 83%;
+}
+
+.form-section {
+  flex: none;
+  height: 200px;
+  padding: 10px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 47px;
+}
+input {
+  display: block;
+  width: 91%;
+  padding: 5px;
+}
+.sepration{
+  flex:1 1;
+  width: 1px;
+  height: 22px;
+}
+.data {
+  position: absolute;
+  margin-left: 27px;
+}
+.separator {
+  width: 1px; 
+  background-color: #ccc; 
+}
+.local {
+  margin-left: 30px;
+}
+
+.close {
+  background-color: #f03a0c;
+  border-radius: 20px;
+  width: 297px;
+  margin-left: 20px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-top: 22px;
+}
+
+
+.instert {
+  margin-top: 20px;
+  margin-left: 20px !important;
+}
